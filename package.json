@@ -1,12 +1,12 @@
 {
-  "name": "image-sprite-webpack-plugin",
-  "version": "0.2.4",
+  "name": "@a2nt/image-sprite-webpack-plugin",
+  "version": "0.2.5",
   "description": "Image Sprite Plugin for Webpack.",
   "main": "src/ImageSpritePlugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shim Heungwoon <hw.shim@navercorp.com>",
+  "author": "Tony Air <tony@twma.proo>",
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.3.2",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/naver/image-sprite-webpack-plugin.git"
+    "url": "https://github.com/a2nt/image-sprite-webpack-plugin.git"
   },
   "keywords": [
     "webpack",
