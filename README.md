@@ -66,6 +66,7 @@ const ImageSpritePlugin = require('image-sprite-webpack-plugin');
 new ImageSpritePlugin({
     commentOrigin: false,
     compress: true,
+    exclude: /sprite/,
     extensions: ['gif', 'png'],
     indent: '',
     log: true,
@@ -91,6 +92,7 @@ const ImageSpritePlugin = require('image-sprite-webpack-plugin');
 new ImageSpritePlugin({
     commentOrigin: true,
     compress: false,
+    exclude: /sprite/,
     extensions: ['gif', 'png'],
     indent: '  ',
     log: true,
@@ -162,6 +164,7 @@ Each example has the following command.
 |:--|:--|:-----|:----------|
 |**commentOrigin**|{Boolean}|`false`|Shows the original image resource url with a comment. ![image](https://user-images.githubusercontent.com/7447396/39823778-bb47a324-53e8-11e8-8fc5-484c13363040.png)|
 |**compress**|{Boolean}|`false`|Compress the output css|
+|**exclude**|{Regex}|`null`|Regex to exclude some files|
 |**extensions**|{Array}|`['png', 'jpg', 'jpeg', 'gif']`|File extensions to be converted with the spritesheets|
 |**indent**|{String}|`'  '` (2 spaces)|The indentation for css output source|
 |**log**|{Boolean}|`true`|Enable/disable message logging|
